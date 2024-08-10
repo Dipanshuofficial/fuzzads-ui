@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/contact.css";
 import contactimg from "../assets/contact.png";
 import axios from "axios";
+import "../styles/main.css"
 
 const Contact = () => {
   const [formData, setFormData] = useState({

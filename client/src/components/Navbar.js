@@ -1,5 +1,7 @@
-import React from 'react';
-import '../styles/navbar.css'
+import React from "react";
+import "../styles/navbar.css";
+import { Link } from "react-router-dom";
+import '../styles/main.css';
 
 const Navbar = () => {
   return (
@@ -10,10 +12,18 @@ const Navbar = () => {
           <span className="logo-ads">ADS</span>
         </div>
         <ul className="navbar-menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#plans">Plans</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
+          <Link to="/services" className="nav-link">
+            Services
+          </Link>
+          <li>
+            <a href="#plans">Plans</a>
+          </li>
+          <Link to="/contact" className="nav-link">
+            Contact Us
+          </Link>
         </ul>
         <div className="navbar-buttons">
           <button className="login-button">Login</button>

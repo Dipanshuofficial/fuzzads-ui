@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/pricingCards.css";
 import Ailogo from "../assets/ailogo.png";
 import features from "../data/features.json"; // Assuming features.json is placed in src/data
+import '../styles/main.css';
 
 const PricingCards = () => {
   const [featuresData, setFeaturesData] = useState([]);

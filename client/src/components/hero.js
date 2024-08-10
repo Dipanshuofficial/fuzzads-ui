@@ -4,6 +4,7 @@ import heroImage from "../assets/hero.jpeg"; // Adjust the path as needed
 import icon1 from "../assets/web-traffic.png"; // Example icon path
 import icon2 from "../assets/brand-networking.png"; // Example icon path
 import icon3 from "../assets/website.png"; // Example icon path
+import '../styles/main.css';
 
 const Hero = () => {
   const [currentTime, setCurrentTime] = useState(new Date());

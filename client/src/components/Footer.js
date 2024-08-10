@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/footer.css";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import centerImage from "../assets/Self-confidence-bro.png";
+import '../styles/main.css';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
