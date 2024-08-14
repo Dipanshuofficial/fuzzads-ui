@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+  text-size-adjust: 100%;
+}
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -10,6 +13,9 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+body::-webkit-scrollbar {
+  width: none;
+}
 
 a {
   text-decoration: none;
@@ -17,5 +23,5 @@ a {
 }
 
 body::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }

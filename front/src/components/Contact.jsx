@@ -60,6 +60,7 @@ const Contact = () => {
           <div className="form-row">
             <input
               type="text"
+              autoComplete="given-name"
               name="fname"
               placeholder="First Name"
               className="form-input"
@@ -69,6 +70,7 @@ const Contact = () => {
             />
             <input
               type="text"
+              autoComplete="family-name"
               name="lname"
               placeholder="Last Name"
               className="form-input"
@@ -80,6 +82,7 @@ const Contact = () => {
           <div className="form-row">
             <input
               type="email"
+              autoComplete="email"
               name="email"
               placeholder="Your Email"
               className="form-input"
@@ -91,6 +94,7 @@ const Contact = () => {
           <div className="form-row">
             <input
               type="text"
+              autoComplete="tel"
               name="phone"
               placeholder="Phone Number"
               className="form-input"

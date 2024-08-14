@@ -263,7 +263,7 @@
     top: 11rem;
     left: 1rem;
     width: 40vw;
-    text-wrap: wrap;
+    overflow-wrap: break-word;
   }
   .footer-circle-bottom-right {
     width: 2.5rem;

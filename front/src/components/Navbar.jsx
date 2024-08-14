@@ -27,18 +27,26 @@ const Navbar = () => {
             openClose ? "max-md:translate-x-0" : "max-md:-translate-x-full"
           }`}
         >
-          <Link to="/" className="nav-link">
-            Home
-          </Link>
-          <Link to="/services" className="nav-link">
-            Services
-          </Link>
-          <Link to="/plans" className="nav-link">
-            <a href="#plans">Plans</a>
-          </Link>
-          <Link to="/contact" className="nav-link">
-            Contact Us
-          </Link>
+          <li>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/services" className="nav-link">
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link to="/plans" className="nav-link">
+              <a href="#plans">Plans</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="nav-link">
+              Contact Us
+            </Link>
+          </li>
         </ul>
         <div className="navbar-buttons">
           <button className="login-button">Login</button>

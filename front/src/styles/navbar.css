@@ -13,7 +13,7 @@
 }
 
 .nav-link {
-  color: #26017B; /* Deep Purple */
+  color: #26017b; /* Deep Purple */
   text-decoration: none;
   font-weight: 650;
   transition: color 0.3s;
@@ -30,7 +30,7 @@
 }
 
 .logo-fuzz {
-  color: #26017B; /* Deep Purple */
+  color: #26017b; /* Deep Purple */
 }
 
 .logo-ads {
@@ -44,11 +44,11 @@
 }
 
 .navbar-menu li a {
-  color: #26017B; /* Deep Purple */
+  color: #26017b; /* Deep Purple */
   text-decoration: none;
   font-weight: 650;
   transition: color 0.3s;
-  font-size: 2rem; /* Increased font size */
+  font-size: 1.25rem; /* Increased font size */
 }
 .ham {
   display: none;
@@ -56,9 +56,8 @@
 @media not all and (min-width: 768px) {
   .navbar-container {
     flex-direction: row;
-    gap: 2rem;
     padding: 0.5rem;
-    align-items: start;
+    align-items: center;
     justify-content: flex-start;
     position: relative;
   }
@@ -73,10 +72,10 @@
   }
   .navbar-buttons {
     flex-direction: row;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    margin-right: 1rem;
+    position: sticky;
+    scale: 0.7;
+    flex:1;
+    padding-left: 25%;
   }
   .login-button {
     font-size: 1.2rem !important;
@@ -89,10 +88,13 @@
     display: flex;
     height: 2rem;
     width: 2rem;
+    margin-right: 1rem;
+    min-width: 1.5rem;
   }
 }
 .navbar-menu li a:hover {
   color: #376bf0; /* Blue */
+  font-size: 1.1rem;
 }
 
 .navbar-buttons {
@@ -111,7 +113,7 @@
 }
 
 .login-button:hover {
-  color: #26017B; /* Slightly darker blue for hover effect */
+  color: #26017b; /* Slightly darker blue for hover effect */
 }
 
 .signup-button {
@@ -127,5 +129,5 @@
 }
 
 .signup-button:hover {
-  background: #26017B; /* Slightly darker blue for hover effect */
+  background: #26017b; /* Slightly darker blue for hover effect */
 }
