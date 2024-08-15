@@ -4,7 +4,7 @@ import "../styles/pricingCards.css";
 import features from "../data/features.json"; // Assuming features.json is placed in src/data
 import "../styles/main.css";
 import PricingCard from "./Subcomponents/PricingCard";
-import { FaRegCircleCheck } from "react-icons/fa6";
+// import { FaRegCircleCheck } from "react-icons/fa6";
 const PricingCards = () => {
   const [featuresData, setFeaturesData] = useState([]);
   const [showAllFeatures, setShowAllFeatures] = useState(false);

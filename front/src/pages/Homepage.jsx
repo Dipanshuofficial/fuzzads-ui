@@ -4,10 +4,12 @@ import PricingCards from "../components/PricingCards";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import "../styles/main.css";
+import ChatBotComponent from "../components/chat/chatBotComponent";
 
 const Homepage = () => {
   return (
     <div>
+      <ChatBotComponent />
       <Navbar />
       <Hero />
       <PricingCards />
